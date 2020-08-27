@@ -70,6 +70,62 @@
 }
 
 .projects-grid{
-  padding: 0 100px;
-  display: flex;
+  margin: auto;
+  width: 100%;
+}
+
+.project-item{
+  float: left;
+  margin: 50px 55px 0px 50px;
+}
+
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  margin: auto;
+  width: 50%;
+}
+
+.contact-list i{
+  font-size: 50px;
+  margin-right: 5rem;
+}
+
+.resume.gird{
+  padding-top: 0px;
+}
+
+.resume-right-col{
+  background: #27221f;
+  padding: 0px 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #fff;
 }

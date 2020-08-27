@@ -26,7 +26,36 @@ class Projects extends Component {
           
           <div className="projects-grid">
             {/* Chat-Application */}
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card shadow={5} className="project-item" >
+              <CardTitle
+                style={{
+                  color: "#333",
+                  height: "180px",
+                  background: "url(images/chat.jpg) center / cover",
+                }}
+              >
+                Chat Application
+              </CardTitle>
+              <CardText style={{ textAlign: "justify" }}>
+                This is a chat Application developed on a running course from
+                UDEMY. This is dynamic chat-application and it's response
+                quickly as it should be. Their i use web-socket to access
+                network every response as time.
+              </CardText>
+              <CardActions border>
+                <Button style={{ margin: "0 10px" }} raised ripple primary>
+                  <i className="fa fa-github" aria-hidden="true" /> Github
+                </Button>
+                <Button raised accent ripple style={{ margin: "0 10px" }}>
+                  <i className="fa fa-desktop" aria-hidden="true" /> Live Demo
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* Calculator */}
+            <Card shadow={5} className="project-item" >
               <CardTitle
                 style={{
                   color: "#333",
@@ -55,7 +84,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
             {/* Chat-Application */}
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card shadow={5}  className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
@@ -84,7 +113,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
             {/* Chat-Application */}
-            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <Card shadow={5}  className="project-item">
               <CardTitle
                 style={{
                   color: "#333",
