@@ -12,7 +12,6 @@ import {
   CardMenu,
   IconButton,
 } from "react-mdl";
-import { Link, Redirect } from "react-router-dom";
 
 class Projects extends Component {
   constructor(props) {
