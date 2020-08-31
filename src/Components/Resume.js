@@ -3,7 +3,6 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
-import { Link } from 'react-router-dom';
 
 class Resume extends Component {
   render() {
@@ -35,9 +34,23 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>ismail96dream@gmail.com</p>
             <h5>Web</h5>
-            <Link style={{textDecoration: 'none'}} to="https://talent-programmer.blogspot.com"> My Programming Blog</Link>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://talent-programmer.blogspot.com"
+            >
+              My Programming Blog
+            </a>
             <h5>Download CV</h5>
-            <Link style={{textDecoration: 'none'}} to="https://drive.google.com/file/d/1a8pQ1Fg6Dqxgc9knrPogmM0GFtOicKjK/view?usp=sharing"> My Update CV</Link>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1a8pQ1Fg6Dqxgc9knrPogmM0GFtOicKjK/view?usp=sharing"
+            >
+              My Update CV
+            </a>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>

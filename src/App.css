@@ -1,17 +1,33 @@
-.homepage-grid{
-  background: #de6161;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+.homepage-grid {
+  background: #de6161; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2657eb,
+    #de6161
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2657eb,
+    #de6161
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   width: 100%;
   height: 100%;
 }
 
-.header-color{
-  background: #de6161;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.header-color {
+  background: #de6161; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2657eb,
+    #de6161
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2657eb,
+    #de6161
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .profile-img-border {
@@ -30,7 +46,7 @@
   height: auto;
 }
 
-.banner-text{
+.banner-text {
   border-radius: 10px;
   background-color: black;
   opacity: 0.8;
@@ -38,48 +54,48 @@
   margin: auto;
 }
 
-.banner-text h1{
+.banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: #fff;
 }
 
-.banner-text hr{
+.banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
-.banner-text p{
+.banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
 }
 
-.social-links{
+.social-links {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
 }
 
-.social-links i{
+.social-links i {
   color: white;
   padding: 8px;
   font-size: 5em;
 }
 
-.projects-grid{
+.projects-grid {
   margin: auto;
   width: 100%;
 }
 
-.project-item{
+.project-item {
   float: left;
   margin: 50px 55px 0px 50px;
 }
 
-.contact-body{
+.contact-body {
   margin: auto;
   position: fixed;
   width: 100%;
@@ -88,7 +104,7 @@
   padding-top: 2em;
 }
 
-.contact-grid{
+.contact-grid {
   text-align: center;
   justify-content: center;
   width: 80%;
@@ -98,31 +114,31 @@
   margin-bottom: 20px;
 }
 
-.contact-grid h2{
-  font-family: 'Anton', sans-serif;
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
 }
 
-.contact-grid p{
-  font-family: 'Oxygen', sans-serif;
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
   font-weight: bold;
 }
 
-.contact-grid hr{
+.contact-grid hr {
   border-top: 5px dotted black;
   margin: auto;
   width: 50%;
 }
 
-.contact-list i{
+.contact-list i {
   font-size: 50px;
   margin-right: 5rem;
 }
 
-.resume.gird{
+.resume.gird {
   padding-top: 0px;
 }
 
-.resume-right-col{
+.resume-right-col {
   background: #27221f;
   padding: 0px 20px;
   padding-top: 0px;
