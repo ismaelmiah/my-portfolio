@@ -60,7 +60,7 @@ class Homepage extends Component {
                 </a>
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/ismail-hosen-bbbb0012a/"
+                  href="https://www.linkedin.com/in/ismail5g/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
