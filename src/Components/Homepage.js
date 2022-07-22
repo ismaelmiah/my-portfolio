@@ -24,7 +24,7 @@ class Homepage extends Component {
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://facebook.com/ismail5g"
+                  href="http://facebook.com/ismail96.12"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -36,7 +36,7 @@ class Homepage extends Component {
                 </a>
                 {/* LinkedIn */}
                 <a
-                  href="https://twitter.com/ismail_hosen_3g"
+                  href="https://twitter.com/ismail_miah_2"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -48,7 +48,7 @@ class Homepage extends Component {
                 </a>
                 {/* LinkedIn */}
                 <a
-                  href="https://github.com/ismail5g"
+                  href="https://github.com/ismaelmiah"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -60,7 +60,7 @@ class Homepage extends Component {
                 </a>
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/ismail5g/"
+                  href="https://www.linkedin.com/in/ismaelmiah/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

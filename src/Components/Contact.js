@@ -11,9 +11,8 @@ class Contact extends Component {
             <img style={{height: '250px'}} src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png" alt="avatar" />
             <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
               I have been very passionate about computers and programming since
-              my university life. I dream to be an expert software engineer so
-              that I can build professional and useful software that has
-              business value.
+              my university life. I’m able to work well under pressure and adhere to strict deadlines.
+              Being worked for different projects helped me to adapt to the changes quickly and made me a mature team worker.
             </p>
           </Cell>
           <Cell col={6}>
@@ -26,7 +25,7 @@ class Contact extends Component {
                       <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-phone-square" aria-hidden='true'></i>+880 1642259188</ListItemContent>
                   </ListItem>
                   <ListItem>
-                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-envelope" aria-hidden='true'></i>ismail96dream@gmail.com</ListItemContent>
+                      <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}><i className="fa fa-envelope" aria-hidden='true'></i>ismaelmiah.swe@gmail.com</ListItemContent>
                   </ListItem>
               </List>
               </div>
