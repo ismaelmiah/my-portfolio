@@ -22,17 +22,17 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Asp .Net Developer</h4>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <p style={{ textAlign: "justify" }}>
-              This is Ismail Hosen. Now i'm a final year student of BSC in
-              Software Engineering Department at Daffodil International
-              University. I liked to solve a new real world problem by coding.
+              This is Ismael Miah. I’m an enthusiastic, responsible, self-motivated and hard-working person.
+              I’m able to work well under pressure and adhere to strict deadlines.
+              Being worked for different projects helped me to adapt to the changes quickly and made me a mature team worker.
             </p>
             <hr style={{ borderTop: "2px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
             <p>Raipura-1630, Narsingdi, Dhaka</p>
             <h5>Phone</h5>
-            <p>+88 01642259188</p>
+            <p>(+880) 1642259188</p>
             <h5>Email</h5>
-            <p>ismail96dream@gmail.com</p>
+            <p>ismaelmiah.swe@gmail.com</p>
             <h5>Web</h5>
             <a
               target="_blank"
@@ -53,18 +53,10 @@ class Resume extends Component {
             </a>
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
-            <Education
-              startYear={2017}
-              endYear={2020}
-              schoolName={"Daffodil International University"}
-              degreeName={"Bsc In Software Engineering"}
-            />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
               startYear={"December 2020"}
-              endYear={"January 2020"}
+              endYear={"January 2021"}
               jobName={"Internee"}
               jobDesc={
                 "That was a part-time Internee. And I learnt lot of tech things from this company I now had a chance to test my knowledge in the real world through an internship."
@@ -86,6 +78,14 @@ class Resume extends Component {
             />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
+            <h2>Education</h2>
+            <Education
+              startYear={2017}
+              endYear={2020}
+              schoolName={"Daffodil International University"}
+              degreeName={"Bsc In Software Engineering"}
+            />
+            <hr style={{ borderTop: "3px solid #e22947" }} />            
             <h2>Skills</h2>
             <Skills skill={"HTML/CSS"} progress={80} />
             <Skills skill={"ReactJS"} progress={60} />
