@@ -47,7 +47,7 @@ class Resume extends Component {
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
-              href="https://drive.google.com/file/d/10pokHihjguFSTzuqX__xeXbvNRR-Vpvj/view?usp=sharing"
+              href="/Resume_Of_Ismael_Miah.pdf"
             >
               My Update CV
             </a>
